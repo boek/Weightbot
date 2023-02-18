@@ -21,6 +21,8 @@
 		D53093BC29A163C600A7C88B /* WeightReadoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BB29A163C600A7C88B /* WeightReadoutView.swift */; };
 		D53093BE29A1644400A7C88B /* LCDPrimaryTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */; };
 		D53093C029A166AD00A7C88B /* LCDScreenForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */; };
+		D53093C229A174A600A7C88B /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093C129A174A600A7C88B /* SeparatorView.swift */; };
+		D53093C429A1770400A7C88B /* DaySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093C329A1770400A7C88B /* DaySelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		D53093BB29A163C600A7C88B /* WeightReadoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightReadoutView.swift; sourceTree = "<group>"; };
 		D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDPrimaryTextStyle.swift; sourceTree = "<group>"; };
 		D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDScreenForeground.swift; sourceTree = "<group>"; };
+		D53093C129A174A600A7C88B /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		D53093C329A1770400A7C88B /* DaySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				D53093BB29A163C600A7C88B /* WeightReadoutView.swift */,
 				D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */,
 				D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */,
+				D53093C129A174A600A7C88B /* SeparatorView.swift */,
+				D53093C329A1770400A7C88B /* DaySelectorView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -320,8 +326,10 @@
 			files = (
 				D53093B829A1628A00A7C88B /* Color+SaneHSB.swift in Sources */,
 				D53093BE29A1644400A7C88B /* LCDPrimaryTextStyle.swift in Sources */,
+				D53093C229A174A600A7C88B /* SeparatorView.swift in Sources */,
 				D53093BC29A163C600A7C88B /* WeightReadoutView.swift in Sources */,
 				D53093B329A1614100A7C88B /* GradientBackgroundView.swift in Sources */,
+				D53093C429A1770400A7C88B /* DaySelectorView.swift in Sources */,
 				D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */,
 				D53093BA29A162F000A7C88B /* Color+Weightbot.swift in Sources */,
 				D53093B129A1613100A7C88B /* WeightTrackerView.swift in Sources */,

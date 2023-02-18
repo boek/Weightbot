@@ -12,6 +12,7 @@ struct LCDPrimaryTextViewModifier: ViewModifier {
         content
             .fontDesign(.monospaced)
             .lineLimit(1)
+            .kerning(0.0)
             .font(.system(size: 140).bold())
             .foregroundColor(.lcdText)
             .shadow(color: .lcdText.opacity(0.8), radius: 4)

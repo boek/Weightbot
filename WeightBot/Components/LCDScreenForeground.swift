@@ -15,7 +15,7 @@ struct LCDScreenForeground: View {
             VStack(spacing: 2) {
                 ForEach(0..<numberOfLines(height: reader.size.height)) { _ in
                     Rectangle()
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                         .frame(width: reader.size.width, height: 2)
                         .opacity(0.1)
                 }

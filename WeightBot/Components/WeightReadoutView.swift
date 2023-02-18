@@ -17,18 +17,23 @@ struct WeightReadout: View {
             VStack(spacing: 0) {
                 Text(String(format: "%.1f", weight))
                     .lcdTextStyle()
+                Rectangle()
+                    .frame(height: 2)
+                    .padding(.bottom, 10)
+                    .foregroundColor(.white)
+                    .opacity(0.2)
                 HStack {
                     Text(day)
                         .font(.system(size: 14, design: .monospaced).bold())
                         .textCase(.uppercase)
-                        .foregroundColor(.white)
+                        .foregroundColor(.lcdText)
                         .shadow(radius: 2)
                     Spacer()
 
                     Text("LBS")
                         .font(.system(size: 14, design: .monospaced).bold())
                         .padding(3)
-                        .background(.white)
+                        .background(Color.lcdText)
                         .cornerRadius(4)
                 }
             }
