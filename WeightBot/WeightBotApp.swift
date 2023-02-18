@@ -11,7 +11,7 @@ import SwiftUI
 struct WeightBotApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeightTrackerView()
         }
     }
 }

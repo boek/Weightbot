@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530938229A15F9E00A7C88B /* WeightBotApp.swift */; };
-		D530938529A15F9E00A7C88B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530938429A15F9E00A7C88B /* ContentView.swift */; };
 		D530938729A15F9F00A7C88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530938629A15F9F00A7C88B /* Assets.xcassets */; };
 		D530938A29A15F9F00A7C88B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530938929A15F9F00A7C88B /* Preview Assets.xcassets */; };
 		D530939429A15F9F00A7C88B /* WeightBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939329A15F9F00A7C88B /* WeightBotTests.swift */; };
 		D530939E29A15F9F00A7C88B /* WeightBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939D29A15F9F00A7C88B /* WeightBotUITests.swift */; };
 		D53093A029A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */; };
+		D53093B129A1613100A7C88B /* WeightTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093B029A1613100A7C88B /* WeightTrackerView.swift */; };
+		D53093B329A1614100A7C88B /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093B229A1614100A7C88B /* GradientBackgroundView.swift */; };
+		D53093B529A1624600A7C88B /* LCDScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093B429A1624600A7C88B /* LCDScreenBackground.swift */; };
+		D53093B829A1628A00A7C88B /* Color+SaneHSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093B729A1628A00A7C88B /* Color+SaneHSB.swift */; };
+		D53093BA29A162F000A7C88B /* Color+Weightbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093B929A162F000A7C88B /* Color+Weightbot.swift */; };
+		D53093BC29A163C600A7C88B /* WeightReadoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BB29A163C600A7C88B /* WeightReadoutView.swift */; };
+		D53093BE29A1644400A7C88B /* LCDPrimaryTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */; };
+		D53093C029A166AD00A7C88B /* LCDScreenForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		D530937F29A15F9E00A7C88B /* WeightBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D530938229A15F9E00A7C88B /* WeightBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotApp.swift; sourceTree = "<group>"; };
-		D530938429A15F9E00A7C88B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D530938629A15F9F00A7C88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D530938929A15F9F00A7C88B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D530938F29A15F9F00A7C88B /* WeightBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		D530939929A15F9F00A7C88B /* WeightBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D530939D29A15F9F00A7C88B /* WeightBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotUITests.swift; sourceTree = "<group>"; };
 		D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D53093B029A1613100A7C88B /* WeightTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerView.swift; sourceTree = "<group>"; };
+		D53093B229A1614100A7C88B /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		D53093B429A1624600A7C88B /* LCDScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDScreenBackground.swift; sourceTree = "<group>"; };
+		D53093B729A1628A00A7C88B /* Color+SaneHSB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+SaneHSB.swift"; sourceTree = "<group>"; };
+		D53093B929A162F000A7C88B /* Color+Weightbot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Weightbot.swift"; sourceTree = "<group>"; };
+		D53093BB29A163C600A7C88B /* WeightReadoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightReadoutView.swift; sourceTree = "<group>"; };
+		D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDPrimaryTextStyle.swift; sourceTree = "<group>"; };
+		D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDScreenForeground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +108,11 @@
 		D530938129A15F9E00A7C88B /* WeightBot */ = {
 			isa = PBXGroup;
 			children = (
+				D53093AD29A1610100A7C88B /* Components */,
+				D53093B629A1627C00A7C88B /* Extensions */,
+				D53093AE29A1610500A7C88B /* Modules */,
+				D53093AC29A160F900A7C88B /* Resources */,
 				D530938229A15F9E00A7C88B /* WeightBotApp.swift */,
-				D530938429A15F9E00A7C88B /* ContentView.swift */,
-				D530938629A15F9F00A7C88B /* Assets.xcassets */,
-				D530938829A15F9F00A7C88B /* Preview Content */,
 			);
 			path = WeightBot;
 			sourceTree = "<group>";
@@ -125,6 +140,52 @@
 				D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */,
 			);
 			path = WeightBotUITests;
+			sourceTree = "<group>";
+		};
+		D53093AC29A160F900A7C88B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D530938629A15F9F00A7C88B /* Assets.xcassets */,
+				D530938829A15F9F00A7C88B /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D53093AD29A1610100A7C88B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D53093B229A1614100A7C88B /* GradientBackgroundView.swift */,
+				D53093B429A1624600A7C88B /* LCDScreenBackground.swift */,
+				D53093BB29A163C600A7C88B /* WeightReadoutView.swift */,
+				D53093BD29A1644400A7C88B /* LCDPrimaryTextStyle.swift */,
+				D53093BF29A166AD00A7C88B /* LCDScreenForeground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D53093AE29A1610500A7C88B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D53093AF29A1611D00A7C88B /* WeightTracker */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D53093AF29A1611D00A7C88B /* WeightTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D53093B029A1613100A7C88B /* WeightTrackerView.swift */,
+			);
+			path = WeightTracker;
+			sourceTree = "<group>";
+		};
+		D53093B629A1627C00A7C88B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D53093B729A1628A00A7C88B /* Color+SaneHSB.swift */,
+				D53093B929A162F000A7C88B /* Color+Weightbot.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D530938529A15F9E00A7C88B /* ContentView.swift in Sources */,
+				D53093B829A1628A00A7C88B /* Color+SaneHSB.swift in Sources */,
+				D53093BE29A1644400A7C88B /* LCDPrimaryTextStyle.swift in Sources */,
+				D53093BC29A163C600A7C88B /* WeightReadoutView.swift in Sources */,
+				D53093B329A1614100A7C88B /* GradientBackgroundView.swift in Sources */,
 				D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */,
+				D53093BA29A162F000A7C88B /* Color+Weightbot.swift in Sources */,
+				D53093B129A1613100A7C88B /* WeightTrackerView.swift in Sources */,
+				D53093B529A1624600A7C88B /* LCDScreenBackground.swift in Sources */,
+				D53093C029A166AD00A7C88B /* LCDScreenForeground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +484,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeightBot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "WeightBot/Resources/Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = Z88RVG5KD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeightBot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "WeightBot/Resources/Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = Z88RVG5KD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
