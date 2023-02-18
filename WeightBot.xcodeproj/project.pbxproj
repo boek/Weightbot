@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530938229A15F9E00A7C88B /* WeightBotApp.swift */; };
+		D530938529A15F9E00A7C88B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530938429A15F9E00A7C88B /* ContentView.swift */; };
+		D530938729A15F9F00A7C88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530938629A15F9F00A7C88B /* Assets.xcassets */; };
+		D530938A29A15F9F00A7C88B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530938929A15F9F00A7C88B /* Preview Assets.xcassets */; };
+		D530939429A15F9F00A7C88B /* WeightBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939329A15F9F00A7C88B /* WeightBotTests.swift */; };
+		D530939E29A15F9F00A7C88B /* WeightBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939D29A15F9F00A7C88B /* WeightBotUITests.swift */; };
+		D53093A029A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D530939029A15F9F00A7C88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D530937729A15F9E00A7C88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D530937E29A15F9E00A7C88B;
+			remoteInfo = WeightBot;
+		};
+		D530939A29A15F9F00A7C88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D530937729A15F9E00A7C88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D530937E29A15F9E00A7C88B;
+			remoteInfo = WeightBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D530937F29A15F9E00A7C88B /* WeightBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D530938229A15F9E00A7C88B /* WeightBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotApp.swift; sourceTree = "<group>"; };
+		D530938429A15F9E00A7C88B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D530938629A15F9F00A7C88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D530938929A15F9F00A7C88B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D530938F29A15F9F00A7C88B /* WeightBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D530939329A15F9F00A7C88B /* WeightBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotTests.swift; sourceTree = "<group>"; };
+		D530939929A15F9F00A7C88B /* WeightBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D530939D29A15F9F00A7C88B /* WeightBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotUITests.swift; sourceTree = "<group>"; };
+		D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D530937C29A15F9E00A7C88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530938C29A15F9F00A7C88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530939629A15F9F00A7C88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D530937629A15F9E00A7C88B = {
+			isa = PBXGroup;
+			children = (
+				D530938129A15F9E00A7C88B /* WeightBot */,
+				D530939229A15F9F00A7C88B /* WeightBotTests */,
+				D530939C29A15F9F00A7C88B /* WeightBotUITests */,
+				D530938029A15F9E00A7C88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D530938029A15F9E00A7C88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D530937F29A15F9E00A7C88B /* WeightBot.app */,
+				D530938F29A15F9F00A7C88B /* WeightBotTests.xctest */,
+				D530939929A15F9F00A7C88B /* WeightBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D530938129A15F9E00A7C88B /* WeightBot */ = {
+			isa = PBXGroup;
+			children = (
+				D530938229A15F9E00A7C88B /* WeightBotApp.swift */,
+				D530938429A15F9E00A7C88B /* ContentView.swift */,
+				D530938629A15F9F00A7C88B /* Assets.xcassets */,
+				D530938829A15F9F00A7C88B /* Preview Content */,
+			);
+			path = WeightBot;
+			sourceTree = "<group>";
+		};
+		D530938829A15F9F00A7C88B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D530938929A15F9F00A7C88B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D530939229A15F9F00A7C88B /* WeightBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D530939329A15F9F00A7C88B /* WeightBotTests.swift */,
+			);
+			path = WeightBotTests;
+			sourceTree = "<group>";
+		};
+		D530939C29A15F9F00A7C88B /* WeightBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D530939D29A15F9F00A7C88B /* WeightBotUITests.swift */,
+				D530939F29A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift */,
+			);
+			path = WeightBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D530937E29A15F9E00A7C88B /* WeightBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53093A329A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBot" */;
+			buildPhases = (
+				D530937B29A15F9E00A7C88B /* Sources */,
+				D530937C29A15F9E00A7C88B /* Frameworks */,
+				D530937D29A15F9E00A7C88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightBot;
+			productName = WeightBot;
+			productReference = D530937F29A15F9E00A7C88B /* WeightBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D530938E29A15F9F00A7C88B /* WeightBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53093A629A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBotTests" */;
+			buildPhases = (
+				D530938B29A15F9F00A7C88B /* Sources */,
+				D530938C29A15F9F00A7C88B /* Frameworks */,
+				D530938D29A15F9F00A7C88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D530939129A15F9F00A7C88B /* PBXTargetDependency */,
+			);
+			name = WeightBotTests;
+			productName = WeightBotTests;
+			productReference = D530938F29A15F9F00A7C88B /* WeightBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D530939829A15F9F00A7C88B /* WeightBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53093A929A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBotUITests" */;
+			buildPhases = (
+				D530939529A15F9F00A7C88B /* Sources */,
+				D530939629A15F9F00A7C88B /* Frameworks */,
+				D530939729A15F9F00A7C88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D530939B29A15F9F00A7C88B /* PBXTargetDependency */,
+			);
+			name = WeightBotUITests;
+			productName = WeightBotUITests;
+			productReference = D530939929A15F9F00A7C88B /* WeightBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D530937729A15F9E00A7C88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D530937E29A15F9E00A7C88B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D530938E29A15F9F00A7C88B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D530937E29A15F9E00A7C88B;
+					};
+					D530939829A15F9F00A7C88B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D530937E29A15F9E00A7C88B;
+					};
+				};
+			};
+			buildConfigurationList = D530937A29A15F9E00A7C88B /* Build configuration list for PBXProject "WeightBot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D530937629A15F9E00A7C88B;
+			productRefGroup = D530938029A15F9E00A7C88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D530937E29A15F9E00A7C88B /* WeightBot */,
+				D530938E29A15F9F00A7C88B /* WeightBotTests */,
+				D530939829A15F9F00A7C88B /* WeightBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D530937D29A15F9E00A7C88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D530938A29A15F9F00A7C88B /* Preview Assets.xcassets in Resources */,
+				D530938729A15F9F00A7C88B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530938D29A15F9F00A7C88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530939729A15F9F00A7C88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D530937B29A15F9E00A7C88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D530938529A15F9E00A7C88B /* ContentView.swift in Sources */,
+				D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530938B29A15F9F00A7C88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D530939429A15F9F00A7C88B /* WeightBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D530939529A15F9F00A7C88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53093A029A15F9F00A7C88B /* WeightBotUITestsLaunchTests.swift in Sources */,
+				D530939E29A15F9F00A7C88B /* WeightBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D530939129A15F9F00A7C88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D530937E29A15F9E00A7C88B /* WeightBot */;
+			targetProxy = D530939029A15F9F00A7C88B /* PBXContainerItemProxy */;
+		};
+		D530939B29A15F9F00A7C88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D530937E29A15F9E00A7C88B /* WeightBot */;
+			targetProxy = D530939A29A15F9F00A7C88B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D53093A129A15F9F00A7C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D53093A229A15F9F00A7C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53093A429A15F9F00A7C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightBot/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53093A529A15F9F00A7C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightBot/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D53093A729A15F9F00A7C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightBot";
+			};
+			name = Debug;
+		};
+		D53093A829A15F9F00A7C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightBot";
+			};
+			name = Release;
+		};
+		D53093AA29A15F9F00A7C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightBot;
+			};
+			name = Debug;
+		};
+		D53093AB29A15F9F00A7C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z88RVG5KD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.boek.WeightBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D530937A29A15F9E00A7C88B /* Build configuration list for PBXProject "WeightBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53093A129A15F9F00A7C88B /* Debug */,
+				D53093A229A15F9F00A7C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53093A329A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53093A429A15F9F00A7C88B /* Debug */,
+				D53093A529A15F9F00A7C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53093A629A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53093A729A15F9F00A7C88B /* Debug */,
+				D53093A829A15F9F00A7C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53093A929A15F9F00A7C88B /* Build configuration list for PBXNativeTarget "WeightBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53093AA29A15F9F00A7C88B /* Debug */,
+				D53093AB29A15F9F00A7C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D530937729A15F9E00A7C88B /* Project object */;
+}
