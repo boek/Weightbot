@@ -48,6 +48,19 @@ struct WeightReadout: View {
         }
         .overlay {
             RoundedRectangle(cornerRadius: 8)
+                .stroke(.black, lineWidth: 8)
+                .blur(radius: 7)
+        }
+        .overlay {
+            RoundedRectangle(cornerRadius: 5)
+                .stroke(.white, lineWidth: 2)
+                .padding(4)
+                .opacity(0.2)
+
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+        .overlay {
+            RoundedRectangle(cornerRadius: 8)
                 .stroke(LinearGradient(
                     stops: [
                         .init(color: .bottomGradient, location: 0.0),

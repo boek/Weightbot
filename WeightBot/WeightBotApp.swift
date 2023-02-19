@@ -12,6 +12,7 @@ struct WeightBotApp: App {
     var body: some Scene {
         WindowGroup {
             WeightTrackerView()
+                .preferredColorScheme(.light)
         }
     }
 }
