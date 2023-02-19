@@ -17,7 +17,32 @@ struct WeightTrackerView: View {
                     WeightReadout(weight: weight, day: "Wednesday, July 21, 2010")
                     SeparatorView()
                     Spacer()
-                    Slider(value: $weight, in: 0...600.0)
+                    Rectangle()
+                        .foregroundStyle(LinearGradient(
+                            colors: [.lcdGradientTop, .lcdGradientBottom],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        ))
+                        .frame(height: 70)
+                        .overlay {
+                            LazyHStack(spacing: 3) {
+                                ForEach(0..<100) { i in
+                                    DateView(selected: i % 3 == 0)
+                                }
+                            }
+                        }
+                        .clipShape(PickerShape())
+                        .overlay {
+                            PickerShape()
+                                .stroke(.black, lineWidth: 8)
+                                .blur(radius: 4)
+                                .clipShape(PickerShape())
+                        }
+//                        .overlay {
+//                            Slider(value: $weight, in: 0...600.0)
+//                                .padding()
+//                        }
+                    Spacer()
                 }
             }
     }
