@@ -25,6 +25,8 @@
 		D53093C429A1770400A7C88B /* DaySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093C329A1770400A7C88B /* DaySelectorView.swift */; };
 		D53093C629A1CAA000A7C88B /* PickerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093C529A1CAA000A7C88B /* PickerShape.swift */; };
 		D53093C829A1CFD600A7C88B /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53093C729A1CFD600A7C88B /* DateView.swift */; };
+		D5C86F8F29A2B360006E722F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C86F8E29A2B35F006E722F /* State.swift */; };
+		D5C86F9129A2D221006E722F /* BMIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C86F9029A2D221006E722F /* BMIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		D53093C329A1770400A7C88B /* DaySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorView.swift; sourceTree = "<group>"; };
 		D53093C529A1CAA000A7C88B /* PickerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerShape.swift; sourceTree = "<group>"; };
 		D53093C729A1CFD600A7C88B /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		D5C86F8E29A2B35F006E722F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		D5C86F9029A2D221006E722F /* BMIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 				D53093AE29A1610500A7C88B /* Modules */,
 				D53093AC29A160F900A7C88B /* Resources */,
 				D530938229A15F9E00A7C88B /* WeightBotApp.swift */,
+				D5C86F8E29A2B35F006E722F /* State.swift */,
 			);
 			path = WeightBot;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				D53093C329A1770400A7C88B /* DaySelectorView.swift */,
 				D53093C529A1CAA000A7C88B /* PickerShape.swift */,
 				D53093C729A1CFD600A7C88B /* DateView.swift */,
+				D5C86F9029A2D221006E722F /* BMIView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -335,12 +341,14 @@
 				D53093BE29A1644400A7C88B /* LCDPrimaryTextStyle.swift in Sources */,
 				D53093C229A174A600A7C88B /* SeparatorView.swift in Sources */,
 				D53093C629A1CAA000A7C88B /* PickerShape.swift in Sources */,
+				D5C86F8F29A2B360006E722F /* State.swift in Sources */,
 				D53093BC29A163C600A7C88B /* WeightReadoutView.swift in Sources */,
 				D53093B329A1614100A7C88B /* GradientBackgroundView.swift in Sources */,
 				D53093C429A1770400A7C88B /* DaySelectorView.swift in Sources */,
 				D530938329A15F9E00A7C88B /* WeightBotApp.swift in Sources */,
 				D53093BA29A162F000A7C88B /* Color+Weightbot.swift in Sources */,
 				D53093B129A1613100A7C88B /* WeightTrackerView.swift in Sources */,
+				D5C86F9129A2D221006E722F /* BMIView.swift in Sources */,
 				D53093B529A1624600A7C88B /* LCDScreenBackground.swift in Sources */,
 				D53093C029A166AD00A7C88B /* LCDScreenForeground.swift in Sources */,
 			);

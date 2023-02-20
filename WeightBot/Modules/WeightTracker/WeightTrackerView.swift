@@ -9,12 +9,18 @@ import SwiftUI
 
 struct WeightTrackerView: View {
     @State var weight: Double = 218.8
+
     var body: some View {
         GradientBackgroundView()
             .edgesIgnoringSafeArea(.all)
             .overlay {
                 VStack(spacing: 0) {
                     WeightReadout(weight: weight, day: "Wednesday, July 21, 2010")
+                    HStack {
+                        Spacer()
+                        BMIView()
+                            .padding([.trailing, .bottom])
+                    }
                     SeparatorView()
                     Spacer()
                     Rectangle()
@@ -23,7 +29,7 @@ struct WeightTrackerView: View {
                             startPoint: .top,
                             endPoint: .bottom
                         ))
-                        .frame(height: 70)
+                        .frame(height: 120)
                         .overlay {
                             LazyHStack(spacing: 3) {
                                 ForEach(0..<100) { i in
@@ -37,6 +43,17 @@ struct WeightTrackerView: View {
                                 .stroke(.black, lineWidth: 8)
                                 .blur(radius: 4)
                                 .clipShape(PickerShape())
+                        }
+                        .overlay {
+                            PickerShape()
+                                .strokeBorder(
+                                    LinearGradient(
+                                        colors: [.black.opacity(0.1), .white.opacity(0.4)],
+                                        startPoint: .top,
+                                        endPoint: .bottom
+                                    )
+                                    ,
+                                    lineWidth: 3)
                         }
 //                        .overlay {
 //                            Slider(value: $weight, in: 0...600.0)

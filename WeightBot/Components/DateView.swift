@@ -32,18 +32,18 @@ struct DateView: View {
         VStack(spacing: 0) {
             Text("Wed")
                 .textCase(.uppercase)
-                .font(.system(size: 12, weight: .semibold, design: .monospaced))
+                .font(.system(size: 14, weight: .semibold, design: .monospaced))
                 .foregroundColor(.inactiveDay)
                 .shadow(radius: 2)
             Text("21")
-                .font(.system(size: 16, weight: .black, design: .default))
-                .shadow(radius: 4)
+                .font(.system(size: 21, weight: .black, design: .default))
+                .shadow(radius: 5)
             Spacer()
-            RoundedRectangle(cornerRadius: 4)
+            RoundedRectangle(cornerRadius: 6)
                 .fill(.black.shadow(.inner(color: .white.opacity(0.5), radius: 1)))
-                .frame(width: 16, height: 16)
+                .frame(width: 24, height: 24)
                 .overlay {
-                    RoundedRectangle(cornerRadius: 2)
+                    RoundedRectangle(cornerRadius: 4)
                         .stroke(LinearGradient(
                             colors: [
                                 .white.opacity(0.4),
@@ -55,17 +55,17 @@ struct DateView: View {
                 }
                 .overlay {
                     Circle()
-                        .fill(.black.shadow(.inner(color: selected ? .pink : .white, radius: 3)))
-                        .padding(3)
+                        .fill(.black.shadow(.inner(color: selected ? .pink : .white, radius: 6)))
+                        .padding(6)
                         .overlay {
                             Circle()
                                 .foregroundStyle(
-                                    RadialGradient(colors: selected ? [.lightInner, .lightOuter] : [.white.opacity(0.1), .white.opacity(0.2)], center: .center, startRadius: 1, endRadius: 8)
+                                    RadialGradient(colors: selected ? [.lightInner, .lightOuter] : [.white.opacity(0.1), .white.opacity(0.2)], center: .center, startRadius: 1, endRadius: 10)
 
                                 )
                                 .overlay {
                                     Circle()
-                                        .fill(.clear.shadow(.inner(color: .black, radius: 2)))
+                                        .fill(.clear.shadow(.inner(color: .black, radius: 4)))
                                 }
                                 .overlay {
                                     Circle()
@@ -76,19 +76,19 @@ struct DateView: View {
                                                 startRadius: 1,
                                                 endRadius: 6
                                             )
-                                        ).offset(y: 0.5)
+                                        ).offset(y: 1)
                                         .blendMode(BlendMode.colorDodge)
 
                                 }
-                                .padding(4)
+                                .padding(6)
                         }
-                        .shadow(color: .lightInner.opacity(selected ? 0.4 : 0.0), radius: 4)
+                        .shadow(color: .lightInner.opacity(selected ? 0.4 : 0.0), radius: 5)
                 }
 
         }
         .padding(.top, 8)
         .padding(.bottom, 8)
-        .frame(width: 30, height: 60)
+        .frame(width: 60, height: 120)
 
         .background(background)
         .foregroundColor(.white)
@@ -116,7 +116,7 @@ struct DateView_Previews: PreviewProvider {
                 }
             }
         }
-        .frame(height: 62)
+        .frame(height: 120)
         .background(.black)
         .clipShape(PickerShape())
 
